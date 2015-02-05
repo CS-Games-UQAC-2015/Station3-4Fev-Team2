@@ -40,7 +40,7 @@ def main():
     for i in range(1,len(data)):
         case = data[i]
         p, q = case.split('/')
-        print("why me?")
+        #print("why me?")
         # Démarrer la récursion
         gen = getElfGeneration(p, q, 1)
 
